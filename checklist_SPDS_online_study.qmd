@@ -53,9 +53,10 @@ In addition, a generic Email account at either [Gmail](https://mail.google.com) 
   - [ ] Implement experimental manipulation(s)
   - [ ] Implement dependent variables or personality scales
   - [ ] Implement attention checks (mimicking actual items) 
-  - [ ] Assess demographics  
+  - [ ] Assess demographics 
   - [ ] Provide debriefing (without revealing too much)
   - [ ] Thank participants and link back to Prolific 
+  - [ ] Use systematic names for all external variables (e.g., on Codebook page) 
 
 
 **Test** the study extensively:
