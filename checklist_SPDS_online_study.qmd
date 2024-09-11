@@ -1,0 +1,202 @@
+---
+title: "SPDS online study checklist"
+author: "[Hansjörg Neth](https://neth.de/), [SPDS](https://spds.uni-konstanz.de/), [uni.kn](https://uni.kn)"
+date: "`r Sys.Date()`"
+format: 
+  html:
+    toc: true
+    toc_depth: 2
+    toc-location: left
+    toc-title: Contents
+    number-sections: true
+    embed-resources: true
+editor: source
+---
+
+```{r setup, echo = FALSE}
+# URLs:
+url_unipark <- "https://www.unipark.com/"
+url_prolific <- "https://www.prolific.com/"
+url_osf <- "https://osf.io"
+
+# files:
+file_name <- "checklist_SPDS_online_study.qmd"
+```
+
+A checklist for preparing and running an online study at [SPDS](https://spds.uni-konstanz.de/).
+
+
+## Sites and technologies 
+
+Conducting an online study involves multiple sites and corresponding technologies:
+
+- [Unipark](`r url_unipark`) allows creating online experiments and surveys; 
+- [Prolific](`r url_prolific`) allows recruiting and paying human participants; 
+- [OSF](`r url_osf`) allows pre-registering empirical research projects.  
+
+
+In addition, a generic Email account at either [Gmail](https://mail.google.com) or [uni.kn](https://uni.kn) allow interactions with participants and platforms.
+
+
+## Before starting the study
+
+### Unipark
+
+
+**Design** study and implement study materials:
+
+  - [ ] Welcome participants and provide study information (what, who, how)
+  - [ ] Ask for informed consent
+  - [ ] Manage interaction with recruitment platform (e.g., Prolific ID and link)
+  - [ ] Provide study overview and smooth transitions between parts  
+  - [ ] Provide instructions (on all goals and tasks)
+  - [ ] Implement experimental manipulation(s)
+  - [ ] Implement dependent variables or personality scales
+  - [ ] Implement attention checks (mimicking actual items) 
+  - [ ] Assess demographics  
+  - [ ] Provide debriefing (without revealing too much)
+  - [ ] Thank participants and link back to Prolific 
+
+
+**Test** the study extensively:
+
+- [ ] Run automated tests on Unipark 
+- [ ] Is study structure transparent and transitions smooth? 
+- [ ] Are all study materials explained and displayed clearly? 
+- [ ] Do random assignments and triggers work as intended? 
+- [ ] Adjust external variable names 
+- [ ] Ensure that data can be downloaded and analysed 
+- [ ] Recruit human testers and incorporate their feedback into study 
+
+
+**Backup** project and materials: 
+
+- [ ] Download project (in xml-format)
+- [ ] Download print version (in html- & pdf-format)
+- [ ] Download codebook (showing all items and variable names)
+
+
+
+**Prepare** for study launch: 
+
+- [ ] Ensure sufficient buffers in date range and number of targeted participants 
+- [ ] Change study URL (to a new, non-descriptive, and unique URL) 
+- [ ] Ensure that study is "active" and all external links point to current URL
+- [ ] Re-set the project (to delete all test data) 
+
+
+### Open Science Foundation
+
+**Goal**: Pre-register the study, specifying its hypotheses, planned analyses, and materials 
+
+- [ ] Specify meta-data (authors, titles, etc.)
+- [ ] Specify research questions, hypotheses, design, and analysis plan
+- [ ] Specify criteria for excluding participants
+- [ ] Add final study materials (as PDF documents)
+- [ ] Submit pre-registration before starting the study (but not publishing documents yet)
+
+
+### Prolific
+
+**Goal**: Recruit and pay participants
+
+- [ ] Provide clear study information (without revealing too much) 
+- [ ] Ensure that sufficient funds are available 
+- [ ] Add the final study URL from Unipark 
+- [ ] Create 1 or more tiers of participants (using the same study URL and Prolific codes, to prevent repeated participation) 
+
+
+
+## Pause and reflect 
+
+When all the steps so far have been completed, the study is ready to be launched. 
+A common error at this point is to rush it, rather than calmly consider all relevant aspects. 
+Thus, take some time and reflect on the current status and the next steps: 
+
+- [ ] Discuss the details of the current study status, its launch and management with all team members 
+
+
+
+## During the study
+
+**Goal**: Monitor the study's progress and ensure its smooth completion.
+
+Beware that once a study has been started, it _cannot_ be changed or stopped. 
+While the study is accessible, all relevant sites and channels are to be monitored. 
+
+
+**Before** starting a study:
+
+- [ ] Ensure that Prolific project is complete and contains the current study URL 
+- [ ] Ensure that Unipark study is accessible by setting the study to "active"
+- [ ] Activate recruitment of participants on Prolific 
+
+
+**While** the study is running:
+
+- [ ] Monitor Prolific project: Completed participants and flow of messages
+- [ ] Monitor Unipark page (i.e., page flow information, but not results)
+- [ ] Monitor Email accounts for incoming participant messages (handling all upcoming requests in a competent and friendly way)
+
+
+<!-- Errors or problems: -->
+
+In case of any errors or messages from participants, do not panic! 
+Instead, calmly decide whether to first handle errors or communicate with participants. 
+Small issues can sometimes be fixed, but refrain from making any big changes. 
+
+
+
+## After the study
+
+As soon as the last participant has left Unipark and has been registered on Prolific: 
+
+
+### Unipark
+
+- [ ] Set study to "inactive" (but not "finished")
+- [ ] Download current data file (as a .zip archive)
+- [ ] Check data for dropouts and unusual patterns (e.g., bots)
+- [ ] Never delete any data on Unipark!
+
+
+### Prolific
+
+- [ ] Respond to any open messages 
+- [ ] Pay participants (within 24h of their study completion) 
+- [ ] Prepare billing information for re-claiming funds 
+
+
+### Email account
+
+- [ ] Monitor account and respond to any open messages (for a few days after study) 
+
+
+### Team 
+
+- [ ] Brief other team members on study status
+- [ ] Discuss next steps with all team members 
+
+
+
+## After analysing data 
+
+**Goal**: Archive all materials and clean up on all accounts.  
+
+- [ ] Ensure that all backups (including all materials, data, and documentation) are safe in multiple locations 
+- [ ] Archive the study project on Unipark
+- [ ] Store all project-related emails into a dedicated folder
+- [ ] Submit summary of billing information to administration 
+- [ ] Discuss what to do with pre-registration (whether to publish it or wait for publication draft)
+- [ ] Discuss next steps with team members
+
+
+<!-- Conclusion: -->
+
+Happy online experimentation --- and may the data be with you!
+
+<!-- footer: -->
+
+----
+
+[File ``r file_name`` updated on `r Sys.Date()`.]
