@@ -26,6 +26,16 @@ file_name <- "checklist_SPDS_online_study.qmd"
 A checklist for preparing and running an online study at [SPDS](https://spds.uni-konstanz.de/).
 
 
+::: {.callout-caution icon=true}
+
+## Under construction
+
+This is a preliminary list. 
+Please feel free to edit and improve it as you see fit. 
+
+:::
+
+
 ## Sites and technologies 
 
 Conducting an online study involves multiple sites and corresponding technologies:
@@ -36,6 +46,8 @@ Conducting an online study involves multiple sites and corresponding technologie
 
 
 In addition, a generic Email account at either [Gmail](https://mail.google.com) or [uni.kn](https://uni.kn) allow interactions with participants and platforms.
+
+
 
 
 ## Before starting the study
@@ -59,6 +71,16 @@ In addition, a generic Email account at either [Gmail](https://mail.google.com) 
   - [ ] Use systematic names for all external variables (e.g., on Codebook page) 
 
 
+::: {.callout-tip icon=true}
+
+## Building up
+
+Most studies do not start from scratch. 
+Instead, try to find a similar study and adapt it to your needs. 
+
+:::
+
+
 **Test** the study extensively:
 
 - [ ] Run automated tests on Unipark 
@@ -74,16 +96,27 @@ In addition, a generic Email account at either [Gmail](https://mail.google.com) 
 
 - [ ] Download project (in xml-format)
 - [ ] Download print version (in html- & pdf-format)
-- [ ] Download codebook (showing all items and variable names)
+- [ ] Download Codebook (showing all items and variable names)
 
+
+::: {.callout-important icon=true}
+
+## Verify backups
+
+The guiding question of backups is:  
+Could you --- or someone else --- re-create everything if the original was lost? 
+
+:::
 
 
 **Prepare** for study launch: 
 
 - [ ] Ensure sufficient buffers in date range and number of targeted participants 
-- [ ] Change study URL (to a new, non-descriptive, and unique URL) 
+- [ ] Change the study URL (to a new, non-descriptive, and unique URL) 
 - [ ] Ensure that study is "active" and all external links point to current URL
 - [ ] Re-set the project (to delete all test data) 
+
+
 
 
 ### Open Science Foundation
@@ -117,21 +150,44 @@ Thus, take some time and reflect on the current status and the next steps:
 - [ ] Discuss the details of the current study status, its launch and management with all team members 
 
 
+::: {.callout-tip icon=true}
+
+## Timing issues
+
+When planning a study, consider the time zone of your participant population. 
+For instance, UK time is 1 hour behind German times, and the USA lags Western European time zones by 6 to 9\ hours. 
+Choose the study time so that both you and your participant population can be expected to be awake and fit for the study's entire duration. 
+
+:::
+
+
+::: {.callout-important icon=true}
+
+## Better safe than sorry 
+
+Once a study has been started, it usually _cannot_ be changed or stopped any more.  
+Hence, better check and double-check everything before starting the study. 
+
+:::
+
 
 ## During the study
 
 **Goal**: Monitor the study's progress and ensure its smooth completion.
 
-Beware that once a study has been started, it _cannot_ be changed or stopped. 
-While the study is accessible, all relevant sites and channels are to be monitored. 
+<!-- Beware that once a study has been started, it _cannot_ be changed or stopped.  -->
 
+Before starting a study, make sure that you have updated and access to all relevant sites: 
 
 **Before** starting a study:
 
+- [ ] Ensure that the pre-registration at OSF has been completed and submitted (with a reasonable embargo time). 
 - [ ] Ensure that Prolific project is complete and contains the current study URL 
 - [ ] Ensure that Unipark study is accessible by setting the study to "active"
 - [ ] Activate recruitment of participants on Prolific 
 
+
+While the study is accessible and running, all relevant sites and channels are to be monitored: 
 
 **While** the study is running:
 
@@ -146,6 +202,15 @@ In case of any errors or messages from participants, do not panic!
 Instead, calmly decide whether to first handle errors or communicate with participants. 
 Small issues can sometimes be fixed, but refrain from making any big changes. 
 
+
+::: {.callout-note icon=true}
+
+## Rinse and repeat 
+
+Larger studies are completed in several waves. 
+In this case, the study should only be accessible while real participants are being recruited (and "inactive" otherwise).
+
+:::
 
 
 ## After the study
@@ -178,6 +243,15 @@ As soon as the last participant has left Unipark and has been registered on Prol
 - [ ] Brief other team members on study status
 - [ ] Discuss next steps with all team members 
 
+
+::: {.callout-note icon=true}
+
+## Cleaning up
+
+A study is not finished when the data is collected and analyzed. 
+An important aspect of responsible research is to _clean up_ various sites or tools and _document_ your analysis and results in a transparent fashion. 
+
+:::
 
 
 ## After analysing data 
