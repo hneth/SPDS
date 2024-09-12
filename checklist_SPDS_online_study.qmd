@@ -28,9 +28,9 @@ A checklist for preparing and running an online study at [SPDS](https://spds.uni
 
 ::: {.callout-caution icon=true}
 
-## Under construction
+## Under revision
 
-This is a preliminary list. 
+This is a preliminary list that is presently being revised. 
 Please feel free to edit and improve it as you see fit. 
 
 :::
@@ -71,12 +71,27 @@ In addition, a generic Email account at either [Gmail](https://mail.google.com) 
   - [ ] Use systematic names for all external variables (e.g., on Codebook page) 
 
 
+
 ::: {.callout-tip icon=true}
 
-## Building up
+## Unipark tips
 
-Most studies do not start from scratch. 
-Instead, try to find a similar study and adapt it to your needs. 
+Here are some general tips for designing studies on Unipark:
+
+- **Adapt, rather than invent**: 
+Most studies do not start from scratch. To avoid repeating many mundane steps, find similar studies (or study parts) and adapt them to your needs.
+
+- **Question formats**: 
+In most cases, requiring an answer (via the DAC setting) is preferable to allowing non-answers. 
+Similarly, signaling answer ranges (e.g., by displaying units, ranges, or the percentage symbol behind input fields) and constraining answer formats (e.g., by setting data type and length) facilitates subsequent data processing. However, avoid unclear expectations and allow participants some flexibility. 
+
+- **User defined variables**: 
+Use user-defined variables with random value allocation for experimental manipulations (e.g., for hiding materials based on group membership). 
+When drawing random values, do this as late as possible, clearly document all options, and aim for uniform distributions. 
+Delete old variables that are no longer being used.
+
+- **Contact details**: 
+Although it is important to transparently state who is conducting and funding research, it often is advisable to use a functional email address (e.g., `decision.study@uni-konstanz.de`), rather than your personal address. 
 
 :::
 
@@ -196,11 +211,27 @@ While the study is accessible and running, all relevant sites and channels are t
 - [ ] Monitor Email accounts for incoming participant messages (handling all upcoming requests in a competent and friendly way)
 
 
-<!-- Errors or problems: -->
 
-In case of any errors or messages from participants, do not panic! 
-Instead, calmly decide whether to first handle errors or communicate with participants. 
+::: {.callout-tip icon=true}
+
+## Handling problems
+
+Here are some general tips for dealing with potential problems: 
+
+- **Communication strategy**: 
+Respond to all messages in a friendly and respectful fashion, but not necessarily immediately. 
+
+- **Responding to feedback**: 
+When participants contact you with hints, complaints, or questions, do not panic! 
+Instead, calmly decide whether to first handle an issue or communicate with participants. 
 Small issues can sometimes be fixed, but refrain from making any big changes. 
+
+- **Watch out**: 
+Beware of alternative communication channels (forums) and cheating attempts (e.g., by using bots or fake IP addresses). 
+Many problems can be avoided or minimized by being careful and fast. 
+
+:::
+
 
 
 ::: {.callout-note icon=true}
@@ -266,9 +297,16 @@ An important aspect of responsible research is to _clean up_ various sites or to
 - [ ] Discuss next steps with team members
 
 
+
 <!-- Conclusion: -->
 
 Happy online experimentation --- and may the data be with you!
+
+
+<!-- **ToDo**:  -->
+
+<!-- Add missing points: -->
+
 
 <!-- footer: -->
 
