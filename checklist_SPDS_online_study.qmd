@@ -28,10 +28,10 @@ A checklist for preparing and running an online study at [SPDS](https://spds.uni
 
 ::: {.callout-caution icon=true}
 
-## Under revision
+## Please note 
 
-This is a preliminary list that is presently being revised. 
-Please feel free to edit and improve it as you see fit. 
+This is a preliminary list that is presently being revised.  
+Feel free to edit and improve it as you see fit! 
 
 :::
 
@@ -116,10 +116,11 @@ Although it is important to transparently state who is conducting and funding re
 
 ::: {.callout-important icon=true}
 
-## Verify backups
+## Backups
 
-The guiding question of backups is:  
-Could you --- or someone else --- re-create everything if the original was lost? 
+Backups serve both _documentation_ and _restoration_ functions.   
+The guiding question of making and storing backups is:   
+Could we ---\ or others\ --- re-create everything if the original was lost? 
 
 :::
 
@@ -296,6 +297,17 @@ An important aspect of responsible research is to _clean up_ various sites or to
 - [ ] Discuss what to do with pre-registration (whether to publish it or wait for publication draft)
 - [ ] Discuss next steps with team members
 
+
+::: {.callout-note icon=true}
+
+## A continuous process
+
+Ideally, a study should answer some research question(s). 
+However, interesting studies also motivate new questions. 
+Thus, the end of a study is typically the result of future studies. 
+Fortunately, the next study of a series is typically a lot easier to design than the first... 
+
+:::
 
 
 <!-- Conclusion: -->
